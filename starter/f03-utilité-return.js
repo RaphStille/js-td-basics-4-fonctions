@@ -1,4 +1,4 @@
-/*****************************
+    /*****************************
  * 020 - Fonctions - Préalable
  */
 
@@ -26,11 +26,19 @@ pour le réutiliser dans une autre fonction
 // Exécutez les deux fonctions
 
 // 1°) Créez la fonction calcule1
-
-
-
 // 2°) Créez la fonction calcule2
-
-
-
 // 3°) Appelez les fonctions calcule1() et calcule2() pour exécuter les calculs et afficher les résultats dans la console
+
+    function calcule1() {
+        let resultat1 = 2+3;
+        console.log("Resultat1: "+resultat1);
+        return resultat1;
+    }
+    function calcule2() {
+        let resultat1 = calcule1();
+        let resultat2 = resultat1*2;
+        console.log("Resultat2: "+resultat2);
+    }
+
+    calcule1();
+    calcule2();

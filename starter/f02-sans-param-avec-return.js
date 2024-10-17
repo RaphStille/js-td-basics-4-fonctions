@@ -22,11 +22,17 @@ N.B. La déclaration, à elle toute seule, ne produit aucun résultat visible
 
 // 1°) a) Déclarer la fonction
 function direBonjour() {
-    // À vous de remplir le contenu de cette fonction et d'ajouter une instruction RETURN pour retourner la chaîne "Bonjour !"
+    return "Bonjour !";
 }
 
 // 2°) a) Exécuter la fonction (appelez la fonction direBonjour)
 
+direBonjour();
+
 // 3°) a) Stocker le résultat de l'exécution de direBonjour dans une variable resultat
 
+var resultat = direBonjour();
+
 // 3°) b) Donner l'ordre d'afficher le contenu de la variable resultat dans la console
+
+console.log(resultat)
