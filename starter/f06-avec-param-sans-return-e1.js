@@ -25,6 +25,8 @@
 */
 
 
+
+
 // 2°) Une fonction avec paramètre à la place de toutes celles-là :
 
 /* EXERCICE 2 : Une seule fonction avec paramètre
@@ -36,3 +38,11 @@
                      - le double de 24 ;
                      - le double de 128.
 */
+
+function double(n) {
+    console.log(`Le double de ${n} est : ${n*2}`);
+}
+double(3);
+double(10);
+double(24);
+double(128);

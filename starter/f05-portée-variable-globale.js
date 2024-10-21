@@ -51,6 +51,7 @@ affiche2();*/
 
 function affiche1() {
     let nbre1 = 2;
+    return nbre1;
 }
 
 function affiche2() {
@@ -81,3 +82,18 @@ RESUME :
 - Variable locale : accessible que dans le corps de la fonction où elle se trouve
 - Variable globale : accessible partout
 */
+
+let nbr3;
+
+function affiche3() {
+    nbr3 = 2;
+    console.log("Dans l'affiche 3 = nbre3 = " + nbr3);
+}
+function affiche4() {
+    let nbre4 = 3;
+    console.log("Dans affiche2 : nbre4 = " + nbre4);
+    console.log("Dans affiche2 : nbre3 = " + nbre3);
+}
+
+affiche3();
+affiche4();
