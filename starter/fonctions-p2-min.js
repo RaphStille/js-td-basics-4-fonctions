@@ -17,8 +17,19 @@ N.B. Faites deux versions :
 
 // Utilisation de la fonction calcMin pour calculer le minimum
 
-
+function calcMin(a,b) {
+    if (a < b) {
+        return a;
+    } else {
+        return b;
+    }
+}
+console.log(calcMin(4.5,5));
+console.log(calcMin(19,9));
+console.log(calcMin(1,1));
 // Version avec une arrow function
+
+
 
 // Utilisation de la fonction calcMinArrow pour calculer le minimum
 
